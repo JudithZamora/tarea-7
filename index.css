@@ -135,7 +135,48 @@
   .contact{
     display: none;
   }
-
+  .container{
+    display: none;
+  
+  }
+/* modal 2 */
+.modal-all{
+  position: fixed;
+  opacity: 0;
+  visibility: hidden;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.modal-all:target{
+  background: rgba(0, 0, 0, 0.8);
+    visibility: visible;
+    opacity: 1;
+}
+/* end modal 2 */
+.us{
+  background-color: green;
+}
+.us__container{
+  width: 100vh;
+  background-color: #9b0606;
+}
+.us__containerSvg{
+  padding: 2%;
+  text-align: center;
+  border-radius: 4px;
+  background-color: pink;
+}
+.us__p{
+  background-color: yellow;
+  width: 50%;
+}
+.team{
+  display: none;
+}
+.footer{
+  display: none;
+}
   /*body {
     
 
