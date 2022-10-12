@@ -9,7 +9,6 @@
   --blackFooter:#2F303A;
   --boxShadow:rgba(0, 0, 0, 0.12);
 }
-@charset "UTF-8";
 @media screen and (min-width: 320px) and (max-width: 480px) {
   *{
     margin: 0%;
@@ -121,7 +120,7 @@
     height: 400px;
     background-size: cover;
     background-size: 480px 400px;
-    background-image: url(/IMAGENEST2/Imagen\ del\ título.png);
+    background-image: url(./IMAGENEST2/Imagen\ del\ título.png);
   }
   .container__title {
     font-size: 26px;
@@ -345,28 +344,28 @@
     height: 460px;
     background-size: cover;
     background-position: center;
-    background-image: url(/IMAGENES/andres.jpg);
+    background-image: url(./IMAGENES/andres.jpg);
   }
   .containerTeam__img--carla {
     width: 100%;
     height: 460px;
     background-size: cover;
     background-position: center;
-    background-image: url(/IMAGENES/carla.jpg);
+    background-image: url(./IMAGENES/carla.jpg);
   }
   .containerTeam__img--mario {
     width: 100%;
     height: 460px;
     background-size: cover;
     background-position: center;
-    background-image: url(/IMAGENES/mario.jpg);
+    background-image: url(./IMAGENES/mario.jpg);
   }
   .containerTeam__img--pablo {
     width: 100%;
     height: 460px;
     background-size: cover;
     background-position: center;
-    background-image: url(/IMAGENES/pablo.jpg);
+    background-image: url(./IMAGENES/pablo.jpg);
   }
   .containerTeam__text {
     width: 60%;
