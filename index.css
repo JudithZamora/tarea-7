@@ -610,7 +610,7 @@
     height: 600px;
     background-size: cover;
     background-size: 768px 600px;
-    background-image: url(/IMAGENEST2/Imagen\ del\ título.png);
+    background-image: url(./IMAGENEST2/Imagen\ del\ título.png);
   }
   .container__title {
     font-size: 42px;
@@ -842,28 +842,28 @@
     height: 374px;
     background-size: cover;
     background-position: center;
-    background-image: url(/IMAGENES/andres.jpg);
+    background-image: url(./IMAGENES/andres.jpg);
   }
   .containerTeam__img--carla {
     width: 100%;
     height: 374px;
     background-size: cover;
     background-position: center;
-    background-image: url(/IMAGENES/carla.jpg);
+    background-image: url(./IMAGENES/carla.jpg);
   }
   .containerTeam__img--mario {
     width: 100%;
     height: 374px;
     background-size: cover;
     background-position: center;
-    background-image: url(/IMAGENES/mario.jpg);
+    background-image: url(./IMAGENES/mario.jpg);
   }
   .containerTeam__img--pablo {
     width: 100%;
     height: 374px;
     background-size: cover;
     background-position: center;
-    background-image: url(/IMAGENES/pablo.jpg);
+    background-image: url(./IMAGENES/pablo.jpg);
   }
   .containerTeam__text {
     width: 60%;
@@ -1123,7 +1123,7 @@
     display: none;
   }
   .container {
-    background-image: url(/IMAGENEST2/Imagen\ del\ título.png);
+    background-image: url(./IMAGENEST2/Imagen\ del\ título.png);
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
@@ -1356,21 +1356,21 @@
     background-repeat: no-repeat;
     width: 370px;
     height: 294px;
-    background-image: url(/IMAGENES/1l.jpg);
+    background-image: url(./IMAGENES/1l.jpg);
   }
   .do__img2{
     background-size: contain;
     background-repeat: no-repeat;
     width: 370px;
     height: 294px;
-    background-image: url(/IMAGENES/2c.jpg);
+    background-image: url(./IMAGENES/2c.jpg);
   }
   .do__img3{
     background-size: contain;
     background-repeat: no-repeat;
     width: 370px;
     height: 294px;
-    background-image: url(/IMAGENES/3t.jpg);
+    background-image: url(./IMAGENES/3t.jpg);
   }
   .do__banner{
     width: 370px;
@@ -1421,28 +1421,28 @@
     height: 260px;
     background-size: cover;
     background-position: center;
-    background-image: url(/IMAGENES/andres.jpg);
+    background-image: url(./IMAGENES/andres.jpg);
   }
   .containerTeam__img--carla {
     width: 100%;
     height: 260px;
     background-size: cover;
     background-position: center;
-    background-image: url(/IMAGENES/carla.jpg);
+    background-image: url(./IMAGENES/carla.jpg);
   }
   .containerTeam__img--mario {
     width: 100%;
     height: 260px;
     background-size: cover;
     background-position: center;
-    background-image: url(/IMAGENES/mario.jpg);
+    background-image: url(./IMAGENES/mario.jpg);
   }
   .containerTeam__img--pablo {
     width: 100%;
     height: 260px;
     background-size: cover;
     background-position: center;
-    background-image: url(/IMAGENES/pablo.jpg);
+    background-image: url(./IMAGENES/pablo.jpg);
   }
   .containerTeam__text {
     width: 80%;
