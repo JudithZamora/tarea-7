@@ -145,15 +145,15 @@
           SOLUCIONES EFICACES PARA <br />
           SU NEGOCIO
         </h1>
-        <a href="#modalInput" class="open">
+        <a href="#formulario" class="open">
           <button class="container__button">
             <span class="container__span">Solicite nuestro servicio</span>
           </button>
         </a>
       </div>
     </div>
-    <!-- modal input -->
-    <div class="modal-all" id="modalInput">
+    <!-- modal input 
+    <form class="modal-all" id="modalInput">
       <div class="popupInput">
         <div class="popupInput__circle">
           <a href="#" class="popupInput__close">
@@ -174,7 +174,7 @@
         <div class="popupInput__title">
           Deje sus datos, nos contactaremos con usted
         </div>
-        <form action="" class="formulario" id="#formulario">
+        <form action="" class="formulario" id="formulario">
           <div class="inputs">
             <label class="inputs__label" for="name">Nombre </label>
             <input type="text" class="inputs__date" placeholder="name" />
@@ -235,7 +235,119 @@
           </div>
         </form>
       </div>
-    </div>
+    </form>-->
+    <!-- formulario nuevo -->
+    <form action="" class="formulario" id="formulario">
+      <div class="backgroud-formulario">
+        <div class="content">
+          <a href="#" class="btn__clouse">
+            <i class="fa-regular fa-circle-xmark"></i>
+          </a>
+          <h2 class="formulario__titulo">
+            Deje sus datos, nos contactaremos con usted
+          </h2>
+          <!-- nombre -->
+          <div class="formulario__grupo" id="grupo__nombre">
+            <label for="nombre" class="formulario__label">Nombre</label>
+            <div class="formuladio__grupo-input">
+              <input
+                type="text"
+                class="formulario__input"
+                name="nombre"
+                id="nombre"
+                placeholder="Ingrese su Nombre"
+              />
+              <i class="formulario__icon fa-solid fa-user"></i>
+              <i
+                class="formulario__validacion-estado fa-regular fa-circle-xmark"
+              ></i>
+            </div>
+            <p class="formulario__input-error">
+              Tu nombre solo puede contener letras.
+            </p>
+          </div>
+          <!-- telefono -->
+          <div class="formulario__grupo" id="grupo__telefono">
+            <label for="telefono" class="formulario__label">Telefono</label>
+            <div class="formuladio__grupo-input">
+              <input
+                type="text"
+                class="formulario__input"
+                name="telefono"
+                id="telefono"
+                placeholder="55345678"
+              />
+              <i class="formulario__icon fa-solid fa-phone"></i>
+              <i
+                class="formulario__validacion-estado fa-regular fa-circle-xmark"
+              ></i>
+            </div>
+            <p class="formulario__input-error">Ingresa solo numeros</p>
+          </div>
+          <!-- email -->
+          <div class="formulario__grupo" id="grupo__email">
+            <label for="email" class="formulario__label"
+              >Correo Electronico</label
+            >
+            <div class="formuladio__grupo-input">
+              <input
+                type="text"
+                class="formulario__input"
+                name="email"
+                id="email"
+                placeholder="Ingrese su e-mail"
+              />
+              <i class="formulario__icon fa-solid fa-envelope"></i>
+              <i
+                class="formulario__validacion-estado fa-regular fa-circle-xmark"
+              ></i>
+            </div>
+            <p class="formulario__input-error">Ingresa un e-mail valido</p>
+          </div>
+          <!-- texto -->
+          <div class="formulario__grupo" id="grupo__text">
+            <label class="formulario__label-coment">
+              Dejanos tu comentario
+            </label>
+            <textarea
+              name="text"
+              rows="10"
+              cols="40"
+              class="formulario__coment"
+            >
+
+  Escribe un mensaje</textarea
+            >
+          </div>
+          <!-- terminos y condiciones -->
+          <div class="formulario__grupo-terminos" id="grupo__terminos">
+            <label class="fomulario__label">
+              <input
+                class="formulario__checkbox"
+                type="checkbox"
+                name="terminos"
+                id="terminos"
+              />
+              Acepto Terminos y Condiciomes
+            </label>
+          </div>
+          <!-- mensaje Error -->
+          <div class="formulario__mensaje" id="formulario__mensaje">
+            <p>
+              <i class="fa-solid fa-triangle-exclamation"></i>
+              <b>Error!!:</b> Es necesario completar el formulario
+            </p>
+          </div>
+          <!-- enviar -->
+          <div class="formulario__grupo formulario__grupo-btn-enviar">
+            <button type="submit" class="formulario__btn">Enviar</button>
+            <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">
+              Formulario enviado exitosamente!
+            </p>
+          </div>
+        </div>
+      </div>
+    </form>
     <div class="us">
       <!-- antena -->
       <div class="us__container">
@@ -999,7 +1111,7 @@
           type="email"
           class="form__input"
           name="email"
-          id=""
+          id="email"
           placeholder="Correo electrónico"
         />
       </div>
@@ -1019,5 +1131,9 @@
       </svg>
     </section>
     <script src="/prueba.js"></script>
+    <script
+      src="https://kit.fontawesome.com/9b6d1de6d8.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

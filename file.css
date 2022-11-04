@@ -764,6 +764,18 @@
       line-height: 16.41px;
       letter-spacing: 2%;
     }
+    .nav__link:hover{
+      background:
+      linear-gradient(
+        to right,
+        rgb(52, 84, 129),
+        #2196F3
+      );
+    background-size: 100% 4px, 0 4px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+    }
     .nav__contact{
       width: 30%;
       margin: 0 auto;
