@@ -258,6 +258,7 @@
                 placeholder="Ingrese su Nombre"
               />
               <i class="formulario__icon fa-solid fa-user"></i>
+              <!-- x icon -->
               <i
                 class="formulario__validacion-estado fa-regular fa-circle-xmark"
               ></i>
@@ -271,7 +272,7 @@
             <label for="telefono" class="formulario__label">Telefono</label>
             <div class="formuladio__grupo-input">
               <input
-                type="text"
+                type="tel"
                 class="formulario__input"
                 name="telefono"
                 id="telefono"
@@ -282,7 +283,9 @@
                 class="formulario__validacion-estado fa-regular fa-circle-xmark"
               ></i>
             </div>
-            <p class="formulario__input-error">Ingresa solo numeros</p>
+            <p class="formulario__input-error">
+              Ingresa solo numeros, minimo debe contener 12 digitos
+            </p>
           </div>
           <!-- email -->
           <div class="formulario__grupo" id="grupo__email">
@@ -1130,7 +1133,7 @@
         />
       </svg>
     </section>
-    <script src="/prueba.js"></script>
+    <script src="prueba.js"></script>
     <script
       src="https://kit.fontawesome.com/9b6d1de6d8.js"
       crossorigin="anonymous"

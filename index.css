@@ -1197,7 +1197,7 @@
 /* validacion */
 .formulario__grupo-correcto .formulario__validacion-estado{
   color: #1ed12d;
-  opacity: 1;
+  opacity: 0;
 }
 .formulario__grupo-incorrecto .formulario__label{
   color: #bb2929;
@@ -1208,6 +1208,9 @@
 }
 .formulario__grupo-incorrecto .formulario__input{
   border: 3px solid #bb2929;
+}
+.fa-solidfa-circle-check{
+  opacity: 0;
 }
 /* end validacion */
   /* end nuev formulario */
