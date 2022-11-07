@@ -59,10 +59,13 @@ formulario.addEventListener('submit', (e) => {
 
         document.getElementById('formulario__mensaje-exito').classList.add('formulario__mensaje-exito-activo');
         setTimeout(() => {
-            document.getElementById('formulario__mensaje-exito').classList.remove('formulario__mensaje-exito-activo')
+            document.getElementById('formulario__mensaje-exito').classList.remove('formulario__mensaje-exito-activo');
         },2000);
         
     }else {
         document.getElementById('formulario__mensaje').classList.add('formulario__mensaje-activo');
+        setTimeout(() => {
+            document.getElementById('formulario__mensaje').classList.remove('formulario__mensaje-activo');
+        },2000);
     }
 });
