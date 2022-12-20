@@ -1157,7 +1157,7 @@ opacity: 0;
     padding: 3%;
 }
 }
-@media screen and (min-width: 769px) and (max-width: 1400px){
+@media screen and (min-width: 769px) and (max-width: 1440px){
   * {
     margin: 0%;
     padding: 0%;
